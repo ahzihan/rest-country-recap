@@ -1,0 +1,19 @@
+.heading{
+    text-align: center;
+    margin: 40px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.country{
+    border: 3px solid gold;
+    border-radius: 20px;
+    background-color: lightblue;
+    padding: 20px;
+}
+.country img{
+    width: 200px;
+}
